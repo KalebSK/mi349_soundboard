@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: max-content;
+    margin: auto;
+    height: 500px;
+    background-color: beige;
+}
+
+button {
+    border: none;
+    padding-left: 10em;
+    padding-right: 10em;
+    margin-left: 2em;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#blip {
+    background-color: blue;
+}
+
+#blip:hover {
+    box-shadow:0 0px 5px darkblue;
+}
+
+#blip:hover span.blitext {
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(0, 217, 255);
+}
+
+#blip:active span.blitext {
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+#blip:active span.blotext {
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(0, 217, 255);
+}
+
+#blurp {
+    background-color: yellowgreen;
+}
+
+#blurp:hover {
+    box-shadow:0 0px 5px darkgreen;
+}
+
+#blurp:hover span.blutext {
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(0, 182, 76);
+}
+
+#blurp:active span.boitext {
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(0, 182, 76);
+}
+
+#blurp:active span.blutext {
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+#boing {
+    background-color: violet;
+}
+
+#boing:hover {
+    box-shadow:0 0px 5px purple;
+}
+
+#boing:hover span.boitext1 {
+    font-weight: bolder;
+    font-size: x-large;
+    color: rebeccapurple;
+}
+
+#boing:active {
+    box-shadow:0 0px 10px purple;
+}
+
+#boing:active span.boitext2 {
+    font-weight: bolder;
+    font-size: x-large;
+    color: rebeccapurple;
+}
+
+#boing:active span.boitext1 {
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+
